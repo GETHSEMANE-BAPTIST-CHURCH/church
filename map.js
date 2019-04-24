@@ -7,13 +7,13 @@ function initMap() {
 		long: 78.489468
 	};
 
-	 var belmont = {
-		info: '<strong>GETHSEMANE BAPTIST CHURCH</strong><br>\
-					Jayadarsini Enclave<br> Express Highway # 7, Near Kompally,<br>\Secunderabad, Telangana 500100<br>\
-					<a href="https://goo.gl/DpirvA">Get Directions</a>',
-		lat: 17.5554286,
-		long: 78.4960521
-	};
+// 	 var belmont = {
+// 		info: '<strong>GETHSEMANE BAPTIST CHURCH</strong><br>\
+// 					Jayadarsini Enclave<br> Express Highway # 7, Near Kompally,<br>\Secunderabad, Telangana 500100<br>\
+// 					<a href="https://goo.gl/DpirvA">Get Directions</a>',
+// 		lat: 17.5554286,
+// 		long: 78.4960521
+// 	};
 
 	var sheridan = {
 		info: '<strong>GETHSEMANE BAPTIST CHURCH</strong><br>\r\
@@ -25,7 +25,7 @@ function initMap() {
 
 	var locations = [
       [broadway.info, broadway.lat, broadway.long, 0],
-      [belmont.info, belmont.lat, belmont.long, 1],
+//       [belmont.info, belmont.lat, belmont.long, 1],
       [sheridan.info, sheridan.lat, sheridan.long, 2], 
     ];
 
